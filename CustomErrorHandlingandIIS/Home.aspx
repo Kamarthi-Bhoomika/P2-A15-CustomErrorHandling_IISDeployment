@@ -9,7 +9,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h2>HomePage</h2>
+            <h2 style="text-align:center">HomePage</h2>
+            <asp:Button ID="Btn" runat="server" Text="View Details" OnClick="Btn_Click" />
         </div>
     </form>
 </body>
